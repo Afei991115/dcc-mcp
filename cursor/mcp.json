@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "unityMCP": {
+      "url": "http://127.0.0.1:10090/mcp",
+      "type": "http"
+    },
+    "blender": {
+      "command": "C:\\Users\\Davy\\.local\\bin\\uv.exe",
+      "args": [
+        "--directory",
+        "D:\\workspace\\mcp\\blender_mcp\\mcp",
+        "run",
+        "blender-mcp"
+      ]
+    },
+    "substance3d-designer": {
+      "url": "http://127.0.0.1:9765/mcp",
+      "type": "http"
+    },
+    "3dsmax-mcp": {
+      "command": "C:\\Users\\Davy\\AppData\\Roaming\\uv\\tools\\3dsmax-mcp\\Scripts\\3dsmax-mcp.exe"
+    },
+    "spine-mcp": {
+      "command": "node",
+      "args": [
+        "D:\\workspace\\mcp\\spine-mcp-server\\dist\\index.js",
+        "mcp"
+      ],
+      "env": {
+        "SPINE_EXE": "D:\\Spine\\Spine.com",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}
